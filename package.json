@@ -1,29 +1,17 @@
 {
-  "name": "aulas-backend",
+  "name": "abrigo-de-pets",
   "version": "1.0.0",
-  "description": "",
+  "description": "Api, de gerenciamento de pets disponiveis para adotar",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cleitondequadros2-debug/aulas-backend.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
-  "bugs": {
-    "url": "https://github.com/cleitondequadros2-debug/aulas-backend/issues"
-  },
-  "homepage": "https://github.com/cleitondequadros2-debug/aulas-backend#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.1.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.14"
+    "nodemon": "^3.1.10"
   }
 }
